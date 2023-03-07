@@ -1,0 +1,17 @@
+#lists {
+    display: flex;
+    flex-direction: row;
+}
+
+.list-col {
+    position: relative;
+    min-width: 100px;
+}
+
+#more-btn {
+    position: absolute;
+    bottom : 0;
+    left: 5px;
+    min-width: 75px;
+    height: 30px;
+}
