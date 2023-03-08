@@ -35,9 +35,6 @@ const onLessButtonClick = () => {
         i = i - numsPerList;
         const listCols = document.querySelectorAll(".list-col");
         listCols.forEach(col => col.remove());
-        // for (let start = 1; start <= i; start += numsPerList) {
-        //     addListColumn(start); // Recreate all list columns up to the new value of "i"
-        // }
         let start = 1;
         while (start <= i) {
             addListColumn(start);
